@@ -1,1 +1,1 @@
-module.exports = require('af-webpack/webpack');
+module.exports = require('av-webpack/webpack');

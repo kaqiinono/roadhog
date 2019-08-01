@@ -1,5 +1,5 @@
 import { resolve, join } from 'path';
-import dev from 'af-webpack/dev';
+import dev from 'av-webpack/dev';
 import BuildStatistics from 'build-statistics-webpack-plugin';
 import BigBrother from 'bigbrother-webpack-plugin';
 import chalk from 'chalk';
@@ -7,7 +7,7 @@ import notify from 'umi-notify';
 import getConfig, {
   watchConfigs,
   unwatchConfigs,
-} from 'af-webpack/getUserConfig';
+} from 'av-webpack/getUserConfig';
 import getWebpackConfig from './getWebpackConfig';
 import getPaths from './getPaths';
 import registerBabel from './registerBabel';

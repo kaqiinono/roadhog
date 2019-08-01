@@ -1,6 +1,6 @@
 import { resolve, join } from 'path';
-import build from 'af-webpack/build';
-import getConfig from 'af-webpack/getUserConfig';
+import build from 'av-webpack/build';
+import getConfig from 'av-webpack/getUserConfig';
 import notify from 'umi-notify';
 import getWebpackConfig from './getWebpackConfig';
 import getPaths from './getPaths';
